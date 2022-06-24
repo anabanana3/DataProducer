@@ -1,0 +1,62 @@
+{"properties": [
+  {
+    "name": "sys.token.issuer",
+    "type": "java.lang.String",
+    "description": "A description for 'sys.token.issuer'"
+  },
+  {
+    "name": "sys.token.key",
+    "type": "java.lang.String",
+    "description": "A description for 'sys.token.key'"
+  },
+  {
+    "name": "sys.token.duration",
+    "type": "java.lang.String",
+    "description": "A description for 'sys.token.duration'"
+  },
+  {
+    "name": "enpoint.usersAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'enpoint.usersAPI'"
+  },
+  {
+    "name": "enpoint.usersAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'enpoint.usersAPI'"
+  },
+  {
+    "name": "enpoint.usersAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'enpoint.usersAPI'"
+  },
+  {
+    "name": "enpoint.usersAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'enpoint.usersAPI'"
+  },
+  {
+    "name": "enpoint.usersAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'enpoint.usersAPI'"
+  },
+  {
+    "name": "enpoint.usersAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'enpoint.usersAPI'"
+  },
+  {
+    "name": "enpoint.usersAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'enpoint.usersAPI'"
+  },
+  {
+    "name": "enpoint.usersAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'enpoint.usersAPI'"
+  },
+  {
+    "name": "enpoint.filesAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'enpoint.filesAPI'"
+  }
+]}
