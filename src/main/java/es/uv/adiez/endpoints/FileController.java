@@ -52,6 +52,11 @@ public class FileController {
 		String token = tp.getTokenFromHeader(request.getHeader(AUTHORIZATION));
 		String username = tp.getUsernameFromToken(token);
 		Optional<User> u = us.findByEmail(username);
+		String name = file.getOriginalFilename();
+		int dotIndex = name.lastIndexOf('.');
+	    String format =  (dotIndex == -1) ? "" : name.substring(dotIndex + 1);
+	    if(!format.equalsIgnoreCase("json")) return new ResponseEntity<>("Wrong file format, add json file", null, HttpStatus.UNAUTHORIZED);
+		
 		//Comprobamos que no se supere el maximo
 		if(u != null && !fs.isMaxFilesReached(u.get())) {
 			String content = new String(file.getBytes(), StandardCharsets.UTF_8);
